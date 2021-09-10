@@ -26,3 +26,20 @@ print(Verduras)
 
 
 #PRODUCTOS DE LIMPIEZA
+
+Limpieza = []
+x = 0
+while x != "NO":
+    l=input("¿Que producto de limpieza desea comprar? ")
+    Limpieza.append (l)
+    x = input ("¿Desea agregar otro producto de limpieza? para continuar escriba SI de lo contrario escriba NO: ") 
+
+print("Los productos de limpieza seleccionados son: ")
+print(Limpieza)
+
+#LISTA FINAL
+
+print("LISTA COMPLETA")
+print(Verduras)
+print(Frutas)
+print(Limpieza)
