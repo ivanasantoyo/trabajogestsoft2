@@ -37,9 +37,21 @@ while x != "NO":
 print("Los productos de limpieza seleccionados son: ")
 print(Limpieza)
 
+#PRODUCTOS DE LIBRERIA
+Libreria = []
+x = 0
+while x != "NO":
+    l=input("¿Que producto de libreria desea comprar? ")
+    Libreria.append (l)
+    x = input ("¿Desea agregar otro producto de libreria? para continuar escriba SI de lo contrario escriba NO: ") 
+
+print("Los productos de libreria seleccionados son: ")
+print(Libreria)
+
 #LISTA FINAL
 
 print("LISTA COMPLETA")
 print(Verduras)
 print(Frutas)
 print(Limpieza)
+print(Libreria)
